@@ -1,0 +1,22 @@
+.about-main-block {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.about-main-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 116px;
+  color: #a6bbcc;
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+.about-main-text::after {
+  content: "";
+  flex: 1;
+  height: 4px;
+  background: #a6bbcc;
+}
