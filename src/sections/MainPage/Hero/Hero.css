@@ -14,8 +14,8 @@
   align-items: flex-start;
 }
 .avatar {
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
 }
 .hero-text1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
