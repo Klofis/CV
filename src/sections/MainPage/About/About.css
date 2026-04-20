@@ -1,0 +1,54 @@
+.about-main-block {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.about-main-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 116px;
+  color: #a6bbcc;
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+.about-main-text::after {
+  content: "";
+  flex: 1;
+  height: 4px;
+  background: #a6bbcc;
+}
+.about-text {
+  max-width: 956px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  color: #ffffff;
+  align-items: center;
+  margin: 0 auto;
+}
+.about-skills-block {
+  padding-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  max-width: 1080px;
+  width: 100%;
+  justify-content: space-between;
+}
+.about-skills {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+  border-bottom: 1px white solid;
+}

@@ -1,0 +1,45 @@
+.hero-main-block {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 78px;
+  padding-left: 33px;
+  padding-right: 33px;
+  flex-direction: row;
+
+}
+.hero-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.avatar {
+  max-width: 400px;
+  max-height: 400px;
+}
+.hero-text1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  color: #ffffff;
+}
+.hero-text2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 90px;
+  display: flex;
+  align-items: flex-end;
+  color: #a6bbcc;
+}
+.hero-text3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  padding-top: 16px;
+  color: #ffffff;
+  text-decoration: underline;
+}
